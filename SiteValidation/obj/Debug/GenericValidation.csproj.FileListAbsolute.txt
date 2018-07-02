@@ -1,0 +1,8 @@
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\SiteValidation\obj\Debug\GenericValidation.csprojResolveAssemblyReference.cache
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\SiteValidation\obj\Debug\SiteValidation.dll
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\SiteValidation\obj\Debug\SiteValidation.pdb
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\SiteValidation\bin\Debug\SiteValidation.dll
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\SiteValidation\bin\Debug\SiteValidation.pdb
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\SiteValidation\bin\Debug\FluentValidation.dll
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\SiteValidation\bin\Debug\System.ComponentModel.Primitives.dll
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\SiteValidation\bin\Debug\FluentValidation.xml

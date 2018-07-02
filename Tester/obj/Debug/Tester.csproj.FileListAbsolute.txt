@@ -1,0 +1,10 @@
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\Tester\bin\Debug\Tester.exe.config
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\Tester\bin\Debug\Tester.exe
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\Tester\bin\Debug\Tester.pdb
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\Tester\bin\Debug\SiteValidation.dll
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\Tester\bin\Debug\FluentValidation.dll
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\Tester\bin\Debug\SiteValidation.pdb
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\Tester\bin\Debug\FluentValidation.xml
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\Tester\obj\Debug\Tester.csprojResolveAssemblyReference.cache
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\Tester\obj\Debug\Tester.exe
+c:\users\kfir\documents\visual studio 2015\Projects\Validation\Tester\obj\Debug\Tester.pdb

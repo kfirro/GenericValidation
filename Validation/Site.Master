@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Validation.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Validation Test</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="bodyWrapper" class="bodyWrapper">
+        <asp:ContentPlaceHolder ID="SitePlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

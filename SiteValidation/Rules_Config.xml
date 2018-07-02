@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Rules>
+  <Sites>
+    <DummySite>
+        <DummyPage>
+            <Field name="username" preventXSS="true" required="true" minLength="2" maxLength="10" regularExpression="" resourceKey="username_field_{0}"/>
+            <Field name="password" preventXSS="true" required="true" minLength="2" maxLength="10" regularExpression="" resourceKey="password_field_{0}"/>
+            <Field name="email" preventXSS="true" required="true" minLength="" maxLength="" regularExpression="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$" resourceKey="email_field_{0}"/>
+        </DummyPage>
+    </DummySite>
+  </Sites>
+  <!--<Apps>
+    <DummyApp>
+    </DummyApp>
+  </Apps>
+  <WebServices>
+    <DummyWebService>
+    </DummyWebService>
+  </WebServices>-->
+</Rules>
