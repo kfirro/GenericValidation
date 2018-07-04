@@ -4,7 +4,7 @@
     <DummySite>
         <DummyPage>
             <Field name="username" preventXSS="true" required="true" minLength="2" maxLength="10" regularExpression="" resourceKey="username_field_{0}"/>
-            <Field name="password" preventXSS="true" required="true" minLength="2" maxLength="10" regularExpression="" resourceKey="password_field_{0}"/>
+            <Field name="password" preventXSS="true" required="true" minLength="8" maxLength="15" regularExpression="" resourceKey="password_field_{0}"/>
             <Field name="email" preventXSS="true" required="true" minLength="" maxLength="" regularExpression="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$" resourceKey="email_field_{0}"/>
         </DummyPage>
     </DummySite>

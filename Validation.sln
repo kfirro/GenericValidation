@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validation", "Validation\Validation.csproj", "{FFAAD4CB-D287-4C19-93FF-E3CB3461F5BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{594FB417-E34F-475C-AEBF-FCAC40DB2317} = {594FB417-E34F-475C-AEBF-FCAC40DB2317}
+		{B7686B36-AC79-4BBC-BEC8-B72412CC3DE6} = {B7686B36-AC79-4BBC-BEC8-B72412CC3DE6}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericValidation", "SiteValidation\GenericValidation.csproj", "{B7686B36-AC79-4BBC-BEC8-B72412CC3DE6}"
 EndProject

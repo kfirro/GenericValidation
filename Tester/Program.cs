@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using GenericValidation;
 using GenericValidation.Config;
+using FakeItEasy;
+using NUnit;
 
 namespace Tester
 {
@@ -12,7 +14,9 @@ namespace Tester
     {
         static void Main(string[] args)
         {
-            ConfigManager config = new ConfigManager();
+            Fake<ConfigManager> config = new Fake<ConfigManager>();
+            //config.CallsTo(a => a.GetAbstractValidatorByName());
+            //ConfigManager config = new ConfigManager();
             Console.ReadKey();            
         }
     }

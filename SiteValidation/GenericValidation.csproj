@@ -7,8 +7,8 @@
     <ProjectGuid>{B7686B36-AC79-4BBC-BEC8-B72412CC3DE6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SiteValidation</RootNamespace>
-    <AssemblyName>SiteValidation</AssemblyName>
+    <RootNamespace>GenericValidation</RootNamespace>
+    <AssemblyName>GenericValidation</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -63,10 +63,20 @@
     <Compile Include="DataValidators\IDataValidators.cs" />
     <Compile Include="ErrorMessages\Messages.cs" />
     <Compile Include="DataValidators\SignupValidator.cs" />
+    <Compile Include="Properties\GenericValidation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>GenericValidation.settings</DependentUpon>
+    </Compile>
     <Compile Include="ValidationManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\GenericValidation.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>GenericValidation.Designer.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

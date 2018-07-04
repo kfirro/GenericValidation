@@ -31,7 +31,6 @@ namespace GenericValidation
                 return string.Empty;
             var propValue = o.GetType().GetProperty(key).GetValue(o, null);
             return propValue;
-            //return propValue != null ? propValue.ToString() : null;
         }
         public static bool IsValid(Dictionary<string, ValidationResult> results)
         {
@@ -59,7 +58,7 @@ namespace GenericValidation
             where T : IDataValidators
         {
             Validators validator = ValidationManager.GetValidatorType<T>(prop);
-            //TODO: Using IoC get the right validator
+            //TODO: Use IoC get validator by a factory 
             switch (validator)
             {
                 case Validators.EmailValidator:
@@ -84,11 +83,10 @@ namespace GenericValidation
         private static Validators GetValidatorType<T>(System.Reflection.PropertyInfo prop)
             where T : IDataValidators
         {
-            var customAttributes = (ValidatorAttribute[])typeof(T).GetCustomAttributes(typeof(ValidatorAttribute), true);
-            if (customAttributes.Length > 0)
+            var customAttribute = typeof(T).GetProperty(prop.Name).GetCustomAttributes(typeof(ValidatorAttribute), false);
+            if(customAttribute.Length > 0)
             {
-                var myAttribute = customAttributes[0];
-                return myAttribute.Validator;
+                return ((ValidatorAttribute)(customAttribute[0])).Validator;
             }
             return Validators.TextValidator; //Default validator
         }

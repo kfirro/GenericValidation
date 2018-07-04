@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
-using FluentValidation;
 
 namespace GenericValidation.Config
 {
     public sealed class ConfigManager : IConfigEntity
     {
-        //TODO: Implement caching
-        //public const string CONFIG_FILE = @"Rules_Config.xml";
-        private const string CONFIG_FILE = @"C:\Users\kfir\Documents\visual studio 2015\Projects\Validation\SiteValidation\Rules_Config.xml";
+        //TODO: Implement caching & singletone        
+        private readonly string CONFIG_FILE = Properties.GenericValidation.Default.ConfigFilePath;
         private const string BOOL_DEFAULT_VALUE = "false";
         private const string INT_DEFAULT_VALUE = "-1";
         public List<IWrapper> Wrappers { get; private set; }
